@@ -8,5 +8,4 @@ Create an express middleware function that parses incoming JSON, on a successful
 ###Greet your name: `superagent localhost:3000/hello/janedoe post`
 
 
-##J Montoya
-##JS401
+##J Montoya       JS401
