@@ -1,0 +1,32 @@
+{
+  "name": "express_middleware",
+  "version": "1.0.0",
+  "description": "a simple express_middleware framework for CodeFellows JS401",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacethelefty/express_middleware.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Jason Montoya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacethelefty/express_middleware/issues"
+  },
+  "homepage": "https://github.com/jacethelefty/express_middleware#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-http": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-mocha": "^2.2.0"
+  }
+}
