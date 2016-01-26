@@ -3,9 +3,9 @@ Create an express middleware function that parses incoming JSON, on a successful
 
 ##How to use
 
-#Start the server: `node server.js`
-#Use superagent in another tab: `superagent localhost:3000/hello`
-#Greet your name: `superagent localhost:3000/hello/janedoe post`
+###Start the server: `node server.js`
+###se superagent in another tab: `superagent localhost:3000/hello`
+###Greet your name: `superagent localhost:3000/hello/janedoe post`
 
 
 J Montoya
