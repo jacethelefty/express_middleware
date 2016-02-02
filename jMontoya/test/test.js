@@ -16,6 +16,16 @@ describe('simple express middleware server', () => {
         done();
       });
   });
+  // it('should POST jsonData to /sendJson', (done) => {          <<<<<<<<<<<<<<<<<<cannot get to pass....think I have issue with the hello joe object on line 21
+  //   request('localhost:3000')
+  //   .post('/sendJson/' + {"hello": "Joe"})
+  //   .end((err,res) => {
+  //     expect(err).to.eql(null);
+  //     expect(res).to.have.status(200);
+  //     expect(res.body).to.eql({"hello": "Joe"});
+  //     done();
+  //   });
+  // });
   it('should POST to /hello/name to send Hello Name in string', (done) => {
     request('localhost:3000')
     .post('/hello/' + 'Joe')
